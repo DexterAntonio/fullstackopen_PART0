@@ -1,0 +1,14 @@
+note over browser:
+The user enters a note into the form
+and presses the submit button 
+end note over 
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note note: "Almost finished with part 0 :)"
+
+
+note over browser:
+The POST request sends a 
+note to the server to be added
+to the webpage. The submit button 
+does not refresh the page so no
+more requests take place. 
+end note
